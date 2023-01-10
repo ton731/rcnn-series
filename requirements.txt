@@ -7,3 +7,4 @@ torchvision==0.13.1+cu113
 tqdm
 Pillow
 efficientnet_pytorch
+torchmetrics

@@ -6,6 +6,7 @@ __pycache__/
 
 # Data
 rcnn/data/
+rcnn/results/
 
 
 # C extensions
