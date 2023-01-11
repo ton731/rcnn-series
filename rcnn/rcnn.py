@@ -827,7 +827,7 @@ class RCNN_Trainer:
 		for epoch in range(self.train_cfg['epochs']):
 			self.model.train()
 			print(f"[*] Training fine-tuning epoch {epoch+1}/{self.train_cfg['epochs']}")
-			pbar = tqdm(self.category_classification_loader)
+			pbar = tqdm(self.fine_tuning_loader)
 			train_loss = 0
 			train_acc = 0
 			train_iter = 0
