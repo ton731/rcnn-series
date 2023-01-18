@@ -8,6 +8,8 @@ __pycache__/
 data/
 rcnn/rcnn_data/
 rcnn/results/
+fast-rcnn/fast-rcnn_data/
+fast-rcnn/results/
 
 
 # C extensions
